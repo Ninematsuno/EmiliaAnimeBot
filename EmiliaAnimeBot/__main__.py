@@ -65,28 +65,23 @@ You can either use /help or the Commands Button Given Below To get a list of my 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕Add me to your group",url=f"t.me/{BOT_USERNAME}?startgroup=true"
-        ),
+            text="➕Add me➕",url=f"t.me/{BOT_USERNAME}?startgroup=true"
     ],
     [
         InlineKeyboardButton(
-          text="🔰Commands", callback_data="help_back"
-        ),
+          text="🔰Commands🔰", callback_data="help_back"
     ],
     [
         InlineKeyboardButton(
-          text="📮 Updates", url="https://t.me/updates_channel_minato"
-        ),
-    ],
-         
+          text="🚦Updates🚦", url="https://t.me/updates_channel_minato"
+    ],  
     [
        InlineKeyboardButton(
-           text="⚫usage", url="https://t.me/updates_channel_minato"
-         ),
+           text="🉐usage🉐", url="https://t.me/updates_channel_minato"
     ],
     [
         InlineKeyboardButton(
-          text="🈷️ support", url="https://t.me/minato_support" # If you have a bit of dignity left in you, Do NOT Remove this Button
+          text="⛩️support⛩️", url="https://t.me/minato_support" # If you have a bit of dignity left in you, Do NOT Remove this Button
         ),
      
     ],
