@@ -63,8 +63,8 @@ PM_START_TEXT ="""
 This is a highly featured weebish style group management
 Press /help to see what this pro bot can do
 ━━━━━━━━━━━━━━━━━━━━━━
-⦿Since `{}` , 
-⦿I am protecting `{}` users
+◈ Uptime `{}` , 
+◈ I am protecting `{}` users
 “𝑯𝒆𝒓𝒆 𝑰 𝒂𝒎 𝒓𝒆𝒂𝒅𝒚 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒚𝒐𝒖 𝒎𝒂𝒏𝒂𝒈𝒆 𝒚𝒐𝒖𝒓 𝒈𝒓𝒑𝒔 𝒆𝒂𝒔𝒊𝒍𝒚...."
 """
 
@@ -84,8 +84,8 @@ buttons = [
 HELP_STRINGS ="""
 Hey there check out my cool features
 Main Commands:
-❀ /help: PM's you this message.
-❀ /start: You have already used it.
+❍/help: PM's you this message.
+❍/start: You have already used it.
 All commands can either be used with / or.
 [.](https://telegra.ph/file/53f8e4acf7c0e72e798e5.jpg)
 """
