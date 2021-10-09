@@ -82,15 +82,7 @@ buttons = [
 ]
 
 HELP_STRINGS ="""
-Hey  there! This is minato again
-Trust in my power
-━━━━━━━━━━━━━━━━━━━━━━
-Main commands available:
- ❍/start: Check Me... If i am alive or not
- ❍/help: use this.. if you need more info about me ━━━━━━━━━━━━━━━━━━━━━
-For issues report at @minato_support
-━━━━━━━━━━━━━━━━━━━━━━
-All commands can either be used with /or!.
+Hey there check out my cool features
 """
 
 IMPORTED = {}
