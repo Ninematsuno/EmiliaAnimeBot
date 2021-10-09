@@ -83,6 +83,10 @@ buttons = [
 
 HELP_STRINGS ="""
 Hey there check out my cool features
+Main Commands:
+❀ /help: PM's you this message.
+❀ /start: You have already used it.
+All commands can either be used with / or !.
 """
 
 IMPORTED = {}
