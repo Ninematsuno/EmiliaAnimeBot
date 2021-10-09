@@ -70,14 +70,14 @@ Press /help to see what this pro bot can do
 
 buttons = [
     [
-      InlineKeyboardButton(text="✪Add Minato To your group✪",url=f"t.me/{BOT_USERNAME}?startgroup=true")
+      InlineKeyboardButton(text="✪ Add Minato To your group ✪",url=f"t.me/{BOT_USERNAME}?startgroup=true")
     ],
     [
-      InlineKeyboardButton(text="۞Support Group۞", url= "t.me/minato_support"),
-      InlineKeyboardButton(text="✎Updates Channel✎",url="https://t.me/MINATO_UPDATES")
+      InlineKeyboardButton(text="۞ Support Group ۞", url= "t.me/minato_support"),
+      InlineKeyboardButton(text="✎ Updates Channel ✎",url="https://t.me/MINATO_UPDATES")
     ],
     [
-      InlineKeyboardButton(text="➸COMMANDS",callback_data ="help_back")
+      InlineKeyboardButton(text="➸ COMMANDS",callback_data ="help_back")
     ],
 ]
 
