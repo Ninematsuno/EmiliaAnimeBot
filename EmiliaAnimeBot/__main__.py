@@ -79,6 +79,9 @@ buttons = [
     [
       InlineKeyboardButton(text="➸ COMMANDS",callback_data ="help_back")
     ],
+    [
+      InlineKeyboardButton(text="•Network",url="https://t.me/shinobinet")
+   ],
 ]
 
 HELP_STRINGS ="""
