@@ -87,7 +87,7 @@ Main Commands:
 ❀ /help: PM's you this message.
 ❀ /start: You have already used it.
 All commands can either be used with / or.
-[.] (https://telegra.ph/file/53f8e4acf7c0e72e798e5.jpg) parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=False on
+[.] (https://telegra.ph/file/53f8e4acf7c0e72e798e5.jpg)
 """
 
 IMPORTED = {}
