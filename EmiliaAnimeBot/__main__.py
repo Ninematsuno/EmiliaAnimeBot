@@ -71,7 +71,7 @@ Press /help to see what this pro bot can do
 buttons = [
     [
      InlineKeyboardButton(text="✪ Add Minato To your group ✪",url=f"t.me/{BOT_USERNAME}?startgroup=true")
-     inlineKeyboardButton(text="•Network",url="https://t.me/shinobinet")
+     InlineKeyboardButton(text="•Network",url="https://t.me/shinobinet")
     ],
     [
      InlineKeyboardButton(text="۞ Support Group ۞", url= "t.me/minato_support"),
