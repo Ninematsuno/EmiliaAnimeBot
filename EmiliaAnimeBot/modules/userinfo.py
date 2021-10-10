@@ -226,7 +226,7 @@ def info(update: Update, context: CallbackContext):
     rep = message.reply_text(
         "<code>Connecting to minato...</code>", parse_mode=ParseMode.HTML)
 
-    text = (f"╒═══「<b> Information Gathered:</b> 」\n"
+    text = (f"╒═══「<b> ᴋᴏɴᴏʜᴀ ɪɴғᴏ:</b> 」\n"
             f"ID: <code>{user.id}</code>\n"
             f"First Name: {html.escape(user.first_name)}")
 
