@@ -57,7 +57,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT ="""
-𝘏𝘰𝘭𝘢 There {}
+𝘏ello There {}
 [∆𝕴 𝖆𝖒 𝕸𝖎𝖓𝖆𝖙𝖔 𝖆𝖐𝖆 𝖀𝖗 𝖄𝖊𝖑𝖑𝖔𝖜 𝖋𝖑𝖆𝖘𝖍 ∆](https://telegra.ph/file/0d16f0bb1ba1e99b3620b.jpg)
 ➖➖➖➖➖➖➖➖➖➖➖
 This is a highly featured weebish style group management
@@ -585,7 +585,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage("@minato_support", "[MINATO IS BACK ONLINE⚡](https://telegra.ph/file/96c3d55c8eed84c3650de.mp4)",parse_mode = ParseMode.MARKDOWN ),
+            dispatcher.bot.sendMessage("@minato_support", "[MINATO IS BACK ONLINE⚡](https://telegra.ph/file/c7f5e04471db60e0c8ea1.mp4)",parse_mode = ParseMode.MARKDOWN ),
 
         except Unauthorized:
             LOGGER.warning(
