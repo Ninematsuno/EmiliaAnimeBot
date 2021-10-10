@@ -58,7 +58,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT ="""
 𝘏𝘰𝘭𝘢 There {}
-[∆𝕴 𝖆𝖒 𝕸𝖎𝖓𝖆𝖙𝖔 𝖆𝖐𝖆 𝖀𝖗 𝖄𝖊𝖑𝖑𝖔𝖜 𝖋𝖑𝖆𝖘𝖍 ∆](https://telegra.ph/file/af3b555514ee92666e95d.jpg)
+[∆𝕴 𝖆𝖒 𝕸𝖎𝖓𝖆𝖙𝖔 𝖆𝖐𝖆 𝖀𝖗 𝖄𝖊𝖑𝖑𝖔𝖜 𝖋𝖑𝖆𝖘𝖍 ∆](https://telegra.ph/file/0d16f0bb1ba1e99b3620b.jpg)
 ━━━━━━━━━━━━━━━━━━━━━━
 This is a highly featured weebish style group management
 Press /help to see what this pro bot can do
@@ -71,17 +71,15 @@ Press /help to see what this pro bot can do
 buttons = [
     [
       InlineKeyboardButton(text="✪ Add Minato To your group ✪",url=f"t.me/{BOT_USERNAME}?startgroup=true")
+      InlineKeyboardButton(text="•Network",url="https://t.me/shinobinet")
     ],
     [
       InlineKeyboardButton(text="۞ Support Group ۞", url= "t.me/minato_support"),
       InlineKeyboardButton(text="✎ Updates Channel ✎",url="https://t.me/MINATO_UPDATES")
     ],
     [
-      InlineKeyboardButton(text="➸ COMMANDS",callback_data ="help_back")
+      InlineKeyboardButton(text="➸ COMMANDS",callback_data ="help_back") 
     ],
-    [
-      InlineKeyboardButton(text="•Network",url="https://t.me/shinobinet")
-   ],
 ]
 
 HELP_STRINGS ="""
