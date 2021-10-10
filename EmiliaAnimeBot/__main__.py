@@ -87,7 +87,7 @@ Hey there check out my cool features
 Main Commands:
 ✏️/help: PM's you this message.
 ✏️/start: You have already used it.
-All commands can either be used with /or [.](https://telegra.ph/file/53f8e4acf7c0e72e798e5.jpg)
+All commands can either be used with /or[.](https://telegra.ph/file/55194f6b002e3e25da898.jpg)
 """
 
 IMPORTED = {}
