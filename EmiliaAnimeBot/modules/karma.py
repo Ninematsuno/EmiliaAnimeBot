@@ -1,4 +1,4 @@
-from SaitamaRobot import pbot as EREN
+from SaitamaRobot import pgram as EREN
 from SaitamaRobot.utils.errors import capture_err
 from SaitamaRobot.modules.mongo.karma_mongo import (update_karma, get_karma, get_karmas,
                                    int_to_alpha, alpha_to_int)
