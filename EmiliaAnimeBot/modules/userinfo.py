@@ -289,7 +289,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThis User is Immune to Automated Restrictions"
         disaster_level_present = True
     if disaster_level_present:
-        text += ' [<a href="https://t.me/NagatoUzumakiRobotUpdates/6">?</a>]'.format(
+        text += ' [<a href="https://t.me/minato_updates/6">?</a>]'.format(
             bot.username,
         )
     try:
