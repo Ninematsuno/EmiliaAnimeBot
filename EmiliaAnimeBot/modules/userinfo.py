@@ -226,7 +226,7 @@ def info(update: Update, context: CallbackContext):
     rep = message.reply_text(
         "<code>Connecting to minato...</code>", parse_mode=ParseMode.HTML)
 
-    text = (f"╔━✰༆「<b> ᴋᴏɴᴏʜᴀ ɪɴғᴏ:</b> 」\n"
+    text = (f"╔━✰༆「<b> ᴋᴏɴᴏʜᴀ ɪɴғᴏ:</b> 」༆✰━━╗\n"
             f"ID: <code>{user.id}</code>\n"
             f"First Name: {html.escape(user.first_name)}")
 
@@ -289,6 +289,9 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThis User is Immune to Automated Restrictions"
         disaster_level_present = True
 
+if disaster_level_present:
+        text += ' [<a href="https://t.me/minato_updates/6">?</a>]'.format(
+            bot.username)
 
     try:
         user_member = chat.get_member(user.id)
